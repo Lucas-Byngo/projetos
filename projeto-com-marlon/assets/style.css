@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #FFFFFF;
+    font-family: "Hedvig Letters Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 380px;
+    height: 230px;
+    border-radius: 5px;
+    background-color: #73b0ec;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.title-main p{
+    font-size: 25px;
+    opacity: 0.5;
+    display: block;
+    margin-bottom: -10px;
+    margin-top: 10px;
+}
+
+.title-main strong {
+    font-size: 47px;
+    font-weight: 400;
+}
+
+.title i {
+    font-size: 90px;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    background-color:#9cc9ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button:hover {
+    opacity: .8;
+}
+
+.button p {
+    color: #ffffff;
+    font-weight: bold;
+}

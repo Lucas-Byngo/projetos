@@ -1,0 +1,38 @@
+*{
+    background-color: black;
+}
+
+.btns{
+    display: flex;
+    column-gap: 2rem;
+    background-color: var(--color-white-shard);
+}
+
+.btn{
+    background-color: var(--color-black);
+    color: var(--color-white);
+    cursor: pointer;
+    transition:
+        scale 0.25s ease-in,
+        opacity 0.25s ease-in,
+        filter 0.25s ease-in;
+
+    &:hover {
+        scale: 1.2;
+    }
+    background-color: black;
+    color: aliceblue;
+}
+
+.btns:has(.btn:hover) .btn:not(:hover){
+    scale: 0.8;
+    opacity: 0.8;
+    filter:blur(4px);
+}
+
+button{
+    border-color: dodgerblue;
+    background-color:black;
+    border-radius: 10px;
+    
+}
